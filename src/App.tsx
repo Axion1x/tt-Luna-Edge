@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useState } from "react";
+import Form from "./components/Form";
 
 function App() {
   return (
-    <div>
-      <p>Welcome to Luna Edge technical interview</p>
+    <div className="flex flex-col justify-center items-center caret-white bg-zinc-600 h-[100vh]">
+      <Form />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
